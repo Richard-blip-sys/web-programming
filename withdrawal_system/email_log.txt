@@ -1,0 +1,88 @@
+
+
+2025-11-18 04:38:28
+To: chardy2106@gmail.com
+Subject: Withdrawal Request Rejected - IT ELECTIVES 1
+Message: 
+    <html>
+    <head>
+        <style>
+            body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+            .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+            .header { background: #ef4444; color: white; padding: 20px; border-radius: 5px 5px 0 0; }
+            .content { background: #f9f9f9; padding: 20px; border: 1px solid #ddd; }
+            .footer { background: #f1f1f1; padding: 15px; text-align: center; font-size: 12px; color: #666; }
+            .info-box { background: #e0e7ff; padding: 15px; border-radius: 5px; margin: 15px 0; }
+            .status-badge { display: inline-block; padding: 8px 16px; background: #ef4444; color: white; border-radius: 20px; font-weight: bold; }
+        </style>
+    </head>
+    <body>
+        <div class='container'>
+            <div class='header'>
+                <h2>Withdrawal Request Update</h2>
+            </div>
+            <div class='content'>
+                <p>Dear Richard Banquerigo,</p>
+                <p>Your withdrawal request has been reviewed.</p>
+                
+                <div class='info-box'>
+                    <strong>Subject:</strong> IT ELECTIVES 1 - WEB DEV<br>
+                    <strong>Status:</strong> <span class='status-badge'>Rejected</span><br>
+                    <strong>Faculty Notes:</strong> wala lang din.
+                </div>
+                
+                <p>Your withdrawal request was not approved. You remain enrolled in this subject.</p>
+            </div>
+            <div class='footer'>
+                <p>This is an automated message from the Course Withdrawal System</p>
+            </div>
+        </div>
+    </body>
+    </html>
+    
+-----------------------------------
+
+
+2025-11-27 01:05:19
+To: chardy2106@gmail.com
+Subject: Withdrawal Request Approved - IT ELECTIVES 1
+Message: 
+    <html>
+    <head>
+        <style>
+            body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+            .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+            .header { background: #10b981; color: white; padding: 20px; border-radius: 5px 5px 0 0; }
+            .content { background: #f9f9f9; padding: 20px; border: 1px solid #ddd; }
+            .footer { background: #f1f1f1; padding: 15px; text-align: center; font-size: 12px; color: #666; }
+            .info-box { background: #e0e7ff; padding: 15px; border-radius: 5px; margin: 15px 0; }
+            .status-badge { display: inline-block; padding: 8px 16px; background: #10b981; color: white; border-radius: 20px; font-weight: bold; }
+        </style>
+    </head>
+    <body>
+        <div class='container'>
+            <div class='header'>
+                <h2>Withdrawal Request Update</h2>
+            </div>
+            <div class='content'>
+                <p>Dear Richard Banquerigo,</p>
+                <p>Your withdrawal request has been reviewed.</p>
+                
+                <div class='info-box'>
+                    <strong>Subject:</strong> IT ELECTIVES 1 - WEB DEV<br>
+                    <strong>Status:</strong> <span class='status-badge'>Approved</span><br>
+                    <strong>Faculty Notes:</strong> Approved via test script
+                </div>
+                
+                <p>Your withdrawal has been approved. You have been unenrolled from this subject.</p>
+            </div>
+            <div class='footer'>
+                <p>This is an automated message from the Course Withdrawal System</p>
+            </div>
+        </div>
+    </body>
+    </html>
+    
+-----------------------------------
+
+[2025-12-14 02:06:05] TO: your_email@gmail.com | SUBJECT: Test Email from Withdrawal System | STATUS: sent | Email sent successfully
