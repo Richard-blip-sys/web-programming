@@ -4,7 +4,13 @@ require_once 'config.php';
 require_once 'email_verification.php';
 
 if(isLoggedIn()) {
-    header('Location: ' . (isFaculty() ? 'faculty_dashboard.php' : 'student_dashboard.php'));
+    if(isAdmin()) {
+        header('Location: admin_dashboard.php');
+    } elseif(isFaculty()) {
+        header('Location: faculty_dashboard.php');
+    } else {
+        header('Location: student_dashboard.php');
+    }
     exit();
 }
 
@@ -55,8 +61,14 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
             }
         }
         
-        // Email verified or faculty - proceed to dashboard
-        header('Location: ' . ($_SESSION['user_type'] === 'faculty' ? 'faculty_dashboard.php' : 'student_dashboard.php'));
+        // Email verified or faculty/admin - proceed to dashboard
+        if($_SESSION['user_type'] === 'admin') {
+            header('Location: admin_dashboard.php');
+        } elseif($_SESSION['user_type'] === 'faculty') {
+            header('Location: faculty_dashboard.php');
+        } else {
+            header('Location: student_dashboard.php');
+        }
         exit();
     } else {
         $error = 'Invalid username or password';
